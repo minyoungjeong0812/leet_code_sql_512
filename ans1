@@ -1,5 +1,7 @@
 [![2020-08-03-032157.png](https://i.postimg.cc/y8zhjMCR/2020-08-03-032157.png)](https://postimg.cc/HVB7sPxW)
 
+https://www.db-fiddle.com/f/u1Pna3ZfPWqpJCHg9orM2M/0
+
 ##my solution
 
 select player_id,min(device_id)
