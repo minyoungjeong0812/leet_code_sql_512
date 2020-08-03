@@ -2,8 +2,19 @@
 
 https://www.db-fiddle.com/f/u1Pna3ZfPWqpJCHg9orM2M/0
 
-##my solution
+##my solution 1st try: wrong
 
 select player_id,min(device_id)
 from activity
 group by player_id,device_id
+
+## 2nd try
+
+select player_id, device_id
+from activity
+where event_date in 
+
+(select min(event_date)
+from activity
+group by player_id)
+
