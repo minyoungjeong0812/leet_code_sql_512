@@ -1,0 +1,7 @@
+[![2020-08-03-032157.png](https://i.postimg.cc/y8zhjMCR/2020-08-03-032157.png)](https://postimg.cc/HVB7sPxW)
+
+##my solution
+
+select player_id,min(device_id)
+from activity
+group by player_id,device_id
